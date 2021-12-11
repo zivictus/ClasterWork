@@ -49,10 +49,10 @@ cmake_ninja_workdir = D$:/Magistratura/ClasterWork/1/cmake-build-debug/
 
 build cmake_object_order_depends_target_1: phony || CMakeFiles/1.dir
 
-build CMakeFiles/1.dir/Parallel.cpp.obj: CXX_COMPILER__1_Debug D$:/Magistratura/ClasterWork/1/Parallel.cpp || cmake_object_order_depends_target_1
-  DEP_FILE = CMakeFiles\1.dir\Parallel.cpp.obj.d
+build CMakeFiles/1.dir/mpi.cpp.obj: CXX_COMPILER__1_Debug D$:/Magistratura/ClasterWork/1/mpi.cpp || cmake_object_order_depends_target_1
+  DEP_FILE = CMakeFiles\1.dir\mpi.cpp.obj.d
   FLAGS = -std=c++11 -fopenmp -g -std=gnu++14
-  INCLUDES = -I/usr/include/mpi
+  INCLUDES = -ID:/Magistratura/ClasterWork/1/MPI/Include
   OBJECT_DIR = CMakeFiles\1.dir
   OBJECT_FILE_DIR = CMakeFiles\1.dir
 
@@ -64,7 +64,7 @@ build CMakeFiles/1.dir/Parallel.cpp.obj: CXX_COMPILER__1_Debug D$:/Magistratura/
 #############################################
 # Link the executable 1.exe
 
-build 1.exe: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/Parallel.cpp.obj
+build 1.exe: CXX_EXECUTABLE_LINKER__1_Debug CMakeFiles/1.dir/mpi.cpp.obj
   FLAGS = -std=c++11 -fopenmp -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\1.dir

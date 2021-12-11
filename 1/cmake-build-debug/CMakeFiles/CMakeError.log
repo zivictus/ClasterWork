@@ -1,0 +1,168 @@
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_883e7 && [1/2] Building C object CMakeFiles/cmTC_883e7.dir/test_mpi.c.obj
+FAILED: CMakeFiles/cmTC_883e7.dir/test_mpi.c.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_883e7.dir/test_mpi.c.obj -c C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c
+C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_a144e && [1/2] Building CXX object CMakeFiles/cmTC_a144e.dir/test_mpi.cpp.obj
+FAILED: CMakeFiles/cmTC_a144e.dir/test_mpi.cpp.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\g++.exe    -o CMakeFiles/cmTC_a144e.dir/test_mpi.cpp.obj -c D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_ab0ce && [1/2] Building C object CMakeFiles/cmTC_ab0ce.dir/test_mpi.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_ab0ce.dir/test_mpi.c.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_ab0ce.dir/test_mpi.c.obj -c C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c
+C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_a2543 && [1/2] Building CXX object CMakeFiles/cmTC_a2543.dir/test_mpi.cpp.obj
+[31mFAILED: [0mCMakeFiles/cmTC_a2543.dir/test_mpi.cpp.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\g++.exe    -o CMakeFiles/cmTC_a2543.dir/test_mpi.cpp.obj -c D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_2e72d && [1/2] Building C object CMakeFiles/cmTC_2e72d.dir/test_mpi.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_2e72d.dir/test_mpi.c.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_2e72d.dir/test_mpi.c.obj -c C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c
+C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_89504 && [1/2] Building CXX object CMakeFiles/cmTC_89504.dir/test_mpi.cpp.obj
+[31mFAILED: [0mCMakeFiles/cmTC_89504.dir/test_mpi.cpp.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\g++.exe    -o CMakeFiles/cmTC_89504.dir/test_mpi.cpp.obj -c D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_f5d84 && [1/2] Building C object CMakeFiles/cmTC_f5d84.dir/test_mpi.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_f5d84.dir/test_mpi.c.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_f5d84.dir/test_mpi.c.obj -c C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c
+C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_43d80 && [1/2] Building CXX object CMakeFiles/cmTC_43d80.dir/test_mpi.cpp.obj
+[31mFAILED: [0mCMakeFiles/cmTC_43d80.dir/test_mpi.cpp.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\g++.exe    -o CMakeFiles/cmTC_43d80.dir/test_mpi.cpp.obj -c D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_32297 && [1/2] Building C object CMakeFiles/cmTC_32297.dir/test_mpi.c.obj
+FAILED: CMakeFiles/cmTC_32297.dir/test_mpi.c.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_32297.dir/test_mpi.c.obj -c C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c
+C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_1fc52 && [1/2] Building CXX object CMakeFiles/cmTC_1fc52.dir/test_mpi.cpp.obj
+FAILED: CMakeFiles/cmTC_1fc52.dir/test_mpi.cpp.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\g++.exe    -o CMakeFiles/cmTC_1fc52.dir/test_mpi.cpp.obj -c D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_e8b82 && [1/2] Building C object CMakeFiles/cmTC_e8b82.dir/test_mpi.c.obj
+[31mFAILED: [0mCMakeFiles/cmTC_e8b82.dir/test_mpi.c.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_e8b82.dir/test_mpi.c.obj -c C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c
+C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/win/share/cmake-3.21/Modules/FindMPI/test_mpi.c:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+The MPI test test_mpi for CXX in mode normal failed to compile with the following output:
+Change Dir: D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/disha/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/win/ninja.exe cmTC_4ce40 && [1/2] Building CXX object CMakeFiles/cmTC_4ce40.dir/test_mpi.cpp.obj
+[31mFAILED: [0mCMakeFiles/cmTC_4ce40.dir/test_mpi.cpp.obj 
+C:\Users\disha\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\213.5744.254\bin\mingw\bin\g++.exe    -o CMakeFiles/cmTC_4ce40.dir/test_mpi.cpp.obj -c D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp
+D:/Magistratura/ClasterWork/1/cmake-build-debug/CMakeFiles/FindMPI/test_mpi.cpp:1:10: fatal error: mpi.h: No such file or directory
+    1 | #include <mpi.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
