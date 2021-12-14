@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./parallel.exe
+./mpi.exe
