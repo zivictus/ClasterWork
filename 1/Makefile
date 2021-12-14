@@ -1,8 +1,7 @@
-all: Parallel mpi clean
+all: parallel mpi clean
 
-
-Parallel:
-	g++ -std=c++11 Parallel.cpp -o Parallel.exe; ./Parallel.exe > Parallel.txt
+parallel:
+	g++ -std=c++11 Parallel.cpp -lgomp -o parallel.exe; ./parallel.exe > parallel.txt
 
 mpi:
 	mpicc mpi.cpp -o mpi.exe; mpirun -np 2 ./mpi.exe; rm -rf mpi.exe

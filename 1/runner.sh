@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./parallel.exe
