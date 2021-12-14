@@ -36,16 +36,6 @@ int main(int argc, char *argv[]) {
 
     root_process = 0;
 
-    if (argc > 1) {
-        arrayPath = argv[1];
-        inputNumber = atoi(argv[2]);
-        numberArray = getNumberElements(argv[1]);
-    } else {
-        inputNumber = 6;
-        arrayPath = R"(D:\Magistratura\ClasterWork\1\Array.txt)";
-        numberArray = getNumberElements(arrayPath);
-    }
-
     int variants = pow(2, numberArray);
 
     auto *array = new int[numberArray];
@@ -63,6 +53,16 @@ int main(int argc, char *argv[]) {
     ierr = MPI_Comm_size(MPI_COMM_WORLD, &num_procs);
 
     if (my_id == root_process) {
+		
+		    if (argc > 1) {
+        arrayPath = argv[1];
+        inputNumber = atoi(argv[2]);
+        numberArray = getNumberElements(argv[1]);
+    } else {
+        inputNumber = 6;
+        arrayPath = R"(D:\Magistratura\ClasterWork\1\Array.txt)";
+        numberArray = getNumberElements(arrayPath);
+    }
 
         for (int i = 0; i < numberArray; i++) {
             powerOfTwo[i] = pow(2, i);
